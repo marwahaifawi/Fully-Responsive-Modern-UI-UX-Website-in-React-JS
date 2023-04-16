@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ @-webkit-keyframes flip-scale-up-hor {
+    0% {
+      -webkit-transform: scale(1) rotateX(0);
+              transform: scale(1) rotateX(0);
+    }
+    50% {
+      -webkit-transform: scale(2.5) rotateX(-90deg);
+              transform: scale(2.5) rotateX(-90deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateX(-180deg);
+              transform: scale(1) rotateX(-180deg);
+    }
   }
+
+  
+
+
+*{
+    box-sizing : border-box;
+    padding: 0;
+    margin:0;
+    scroll-behavior: smooth;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body
+{
+    background: var(--color-bg) ;
 }
 
-.App-link {
-  color: #61dafb;
+a
+{
+    color:unset;
+    text-decoration: none;
+
+}
+.gradientBg              
+{
+
+  background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+}
+/*For gradient Text color*/        
+.gradientText{
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-text-fill-clop: text;
+    -webkit-text-fill-color: transparent;
+}
+.sectionPadding{
+    padding : 4rem 6rem;
+}   
+.sectionMargin{
+    padding : 4rem 6rem;
+
+}
+.flip-scale-down-diag-1 {
+	-webkit-animation: flip-scale-down-diag-1 0.5s linear both;
+	        animation: flip-scale-down-diag-1 0.5s linear both;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ @-webkit-keyframes flip-scale-down-diag-1 {
+    0% {
+      -webkit-transform: scale(1) rotate3d(1, 1, 0, 0deg);
+              transform: scale(1) rotate3d(1, 1, 0, 0deg);
+    }
+    50% {
+      -webkit-transform: scale(0.4) rotate3d(1, 1, 0, -90deg);
+              transform: scale(0.4) rotate3d(1, 1, 0, -90deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotate3d(1, 1, 0, -180deg);
+              transform: scale(1) rotate3d(1, 1, 0, -180deg);
+    }
   }
-  to {
-    transform: rotate(360deg);
+  @keyframes flip-scale-down-diag-1 {
+    0% {
+      -webkit-transform: scale(1) rotate3d(1, 1, 0, 0deg);
+              transform: scale(1) rotate3d(1, 1, 0, 0deg);
+    }
+    50% {
+      -webkit-transform: scale(0.4) rotate3d(1, 1, 0, -90deg);
+              transform: scale(0.4) rotate3d(1, 1, 0, -90deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotate3d(1, 1, 0, -180deg);
+              transform: scale(1) rotate3d(1, 1, 0, -180deg);
+    }
   }
+  
+  @media screen  and (max-width:700px) {    /*for IPAD*/
+
+    .sectionPadding{
+        padding : 4rem ;
+    }   
+    .sectionMargin{
+        padding : 4rem ;
+    
+    }
 }
+    @media screen  and (max-width:550px) {
+        .sectionPadding{
+            padding : 4rem 2rem ;
+        }   
+        .sectionMargin{
+            padding : 4rem 2rem ;
+        
+        }
+        
+      }
+  

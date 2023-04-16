@@ -1,0 +1,79 @@
+.gpt3FeaturesContainerFeature {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1rem;
+}
+.gpt3FeaturesContainerFeatureInline  {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1rem;
+    column-gap: 20%;
+}
+
+.gpt3FeaturesContainerFeatureTitle {
+    flex: 1;
+    max-width: 250px;
+    margin-right: 2rem;
+}
+
+.gpt3FeaturesContainerFeatureTitle {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 55px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+.gpt3FeaturesContainerFeatureInline .gpt3FeaturesContainerFeatureTitle {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 55px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+
+.gpt3FeaturesContainerFeatureTitle div {
+    width: 38px;
+    height: 3px;
+    background: var(--gradient-bar);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0.25rem;
+
+}
+
+.gpt3FeaturesContainerFeatureText {
+    flex: 2;
+    max-width: 392px;
+    display: flex;
+}
+
+.gpt3FeaturesContainerFeatureText p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-text);
+    max-width: 85%;
+}
+
+@media screen and (max-width: 990px) {
+    .gpt3FeaturesContainerFeatureTitle h1{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .gpt3FeaturesContainerFeatureTitle p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .gpt3FeaturesContainerFeature{
+        margin: 1rem 0;
+    }
+    
+}

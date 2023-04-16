@@ -1,0 +1,124 @@
+.gpt3WhatGpt3 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--color-footer);
+    background: -moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+}
+
+.gpt3WhatGpt3Feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.gpt3FeaturesContainerFeatures  {
+    display: flex;
+}
+.gpt3WhatGpt3Feature .gpt3FeaturesContainerFeatures {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+
+.gpt3WhatGpt3Feature .gpt3FeaturesContainerFeatureText {
+    max-width: 700px;
+}
+
+.gpt3WhatGpt3Heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+.gpt3WhatGpt3Heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    background-clip: text;
+    max-width: 510px;
+}
+
+.gpt3WhatGpt3Heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.gpt3WhatGpt3Container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+
+.gpt3WhatGpt3ContainerFeatures .gpt3FeaturesContainer {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+
+.gpt3WhatGpt3Container .gpt3FeaturesContainerFeatureText {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3WhatGpt3Heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .gpt3WhatGpt3Heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    /* Customizing feature component as per needs */
+
+    .gpt3FeaturesContainerFeatures {
+        flex-direction: column;
+    }
+
+    .gpt3FeaturesContainerFeatureText {
+        margin-top: 0.5rem;
+    }
+
+    .gpt3WhatGpt3Heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+
+    .gpt3FeaturesContainerFeatures {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,112 @@
+.gpt3Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+
+}
+
+.gpt3NavbarLinks {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.gpt3NavbarLinksLogo img {
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.gpt3NavbarLinksContainer {
+    display: flex;
+}
+
+.gpt3NavbarSign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gpt3NavbarLinksContainer p,
+.gpt3NavbarSign p,
+.gpt3NavbarMenuContainer p {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.gpt3NavbarSign button,
+.gpt3NavbarMenuContainer button {
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    background: #FF4820;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: var(--font-family);
+    cursor: pointer;
+    line-height: 25px;
+
+}
+.gpt3NavbarMenu{
+    margin-left:1rem;
+    display:none;
+    position: relative;
+
+}
+.gpt3NavbarMenu svg {
+    cursor: pointer;
+}
+.gpt3NavbarMenuContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top:40px;
+    right: 0;
+    margin-top:1rem;
+    min-width: 210px;
+    border-radius:5px ;
+    box-shadow: 0 0 5 rgb(0,0,0,0.2);
+}
+.gpt3NavbarMenuContainer p{
+    margin:1rem 0 ;
+
+}
+.gpt3NavbarMenuContainerLinksSign {
+    display: none;
+}
+@media screen and (max-width: 1050px){
+    .gpt3NavbarLinksContainer{
+        display: none;
+    }
+    .gpt3NavbarMenu{
+        display: flex;
+    }
+  
+}
+@media screen and (max-width: 700px){
+    .gpt3Navbar{
+        display: 2rem 4rem;
+    }
+    .gpt3NavbarMenu{
+        display: flex;
+    }
+    .gpt3NavbarSign {
+        display: none;
+    }
+}
