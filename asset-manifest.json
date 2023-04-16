@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/css/main.9d6caa41.css",
+    "main.js": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/js/main.917261a0.js",
+    "static/media/ai.png": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/media/ai.e9412b028f277d53f73b.png",
+    "static/media/people.png": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/media/people.2e4d3b692ad9e138f30f.png",
+    "static/media/dropbox.png": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/media/dropbox.4d572f65bdcf3acc739b.png",
+    "static/media/atlassian.png": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/media/atlassian.c5d36cab9f0d7d3aac54.png",
+    "static/media/logo.svg": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
+    "index.html": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/index.html",
+    "main.9d6caa41.css.map": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/css/main.9d6caa41.css.map",
+    "main.917261a0.js.map": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/js/main.917261a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d6caa41.css",
+    "static/js/main.917261a0.js"
+  ]
+}
