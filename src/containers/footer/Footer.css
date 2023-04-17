@@ -1,0 +1,133 @@
+.gpt3Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+}
+
+.gpt3FooterHeading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin-bottom: 3rem;
+
+}
+
+.gpt3FooterHeading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.gpt3FooterBtn {
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.gpt3FooterBtn p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.gpt3FooterLinks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-top: 8rem;
+}
+
+.gpt3FooterLinks div {
+    width: 170px;
+    margin: 1rem;
+}
+
+.gpt3FooterLinksLogo {
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3FooterLinksLogo img {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+
+.gpt3FooterLinksLogo p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.gpt3FooterLinksDiv {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.gpt3FooterLinksDiv h4 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.gpt3FooterLinksDiv p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.gpt3FooterCopyright {
+
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.gpt3FooterCopyright p {
+
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 850px){
+    .gpt3FooterHeading h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 550px){
+    .gpt3FooterHeading h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .gpt3FooterLinks div{
+        margin: 1rem 0;
+    }
+    .gpt3FooterBtn p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+}
