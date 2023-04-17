@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/css/main.880b5935.css",
-    "main.js": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/js/main.babba5ee.js",
+    "main.css": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/css/main.c9556cbf.css",
+    "main.js": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/js/main.708bb238.js",
     "static/media/ai.png": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/media/ai.e9412b028f277d53f73b.png",
     "static/media/possibilityImage.png": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/media/possibilityImage.6f3f62db86e81e86970f.png",
     "static/media/Blog0.png": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/media/Blog0.a1caff7b3f3350506a92.png",
@@ -15,11 +15,11 @@
     "static/media/logo.svg": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
     "static/media/GPT-3.svg": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/media/GPT-3.cf6810c94fbac0cc653f939ff5723cf4.svg",
     "index.html": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/index.html",
-    "main.880b5935.css.map": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/css/main.880b5935.css.map",
-    "main.babba5ee.js.map": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/js/main.babba5ee.js.map"
+    "main.c9556cbf.css.map": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/css/main.c9556cbf.css.map",
+    "main.708bb238.js.map": "/Fully-Responsive-Modern-UI-UX-Website-in-React-JS/static/js/main.708bb238.js.map"
   },
   "entrypoints": [
-    "static/css/main.880b5935.css",
-    "static/js/main.babba5ee.js"
+    "static/css/main.c9556cbf.css",
+    "static/js/main.708bb238.js"
   ]
 }
