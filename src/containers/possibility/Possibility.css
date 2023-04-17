@@ -72,3 +72,23 @@
         margin-top: 2rem;
     }
 }
+
+@media screen and (max-width: 550px) {
+
+    .gpt3PossibilityContent h1 {
+        font-size: 30px;
+        margin: 1.5rem 0;
+
+    }
+
+    .gpt3PossibilityContent h4 {
+        margin: 1.5rem 0;
+
+    }
+
+
+    .gpt3PossibilityContent p {
+        font-size: 16px;
+
+    }
+}
