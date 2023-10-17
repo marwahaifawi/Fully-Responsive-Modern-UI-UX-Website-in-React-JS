@@ -1,5 +1,5 @@
 
-# Fully Responsive Modern UI/UX Website in React JS
+# GPT-3
 
 This is a fully responsive, modern UI/UX website built with React JS. It contains various sections like Header, Features, Article, and Footer. It is built using modern front-end technologies and follows best practices to ensure optimal performance and user experience.
 
